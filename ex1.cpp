@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-// Função que verifica se um número é primo
-bool eh_primo(int n) {
+bool eh_primo(int n) { //função para primos
     if (n <= 1) return false;
     for (int i = 2; i*i <= n; i++) {
         if (n % i == 0)
@@ -21,7 +20,7 @@ int main(int argc, char *argv[]) {
     int inicio = atoi(argv[1]);
     int fim = atoi(argv[2]);
 
-    if (inicio > fim) {
+    if (inicio > fim) { //Para teste de erros
         printf("Erro: o valor de início deve ser menor ou igual ao valor de fim.\n");
         return 1;
     }
