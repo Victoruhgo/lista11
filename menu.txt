@@ -1,0 +1,5 @@
+4
+1 X-Burguer 10.50
+2 X-Salada 12.00
+3 Batata-Frita 6.00
+4 Refrigerante 5.00
