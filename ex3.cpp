@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 
-#define CARTELAS 3  // Altere aqui a quantidade de cartelas desejadas
+#define CARTELAS 3
 #define TAM 5
 
 // Função para gerar números únicos dentro de um intervalo
